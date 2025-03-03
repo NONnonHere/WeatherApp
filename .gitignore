@@ -1,0 +1,20 @@
+# Ignore node_modules everywhere
+node_modules/
+
+# Ignore lockfiles (optional, remove if you want to track it)
+package-lock.json
+
+# Ignore Vite build output
+client/dist/
+client/dist-ssr/
+
+# Ignore environment variables
+.env
+server/.env
+client/.env
+
+# Ignore IDE files
+.vscode/
+
+# Ignore logs
+*.log
